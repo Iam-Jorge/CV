@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Georgi Angelov</title>
+</head>
+<body>
+    <video autoplay muted loop id="background-video">
+        <source src="./img/Background.mp4" type="video/mp4">
+        Tu navegador no soporta el video.
+    </video>
+    
+    <video autoplay muted loop id="mobile-background-video">
+        <source src="./img/PhoneBackground.mp4" type="video/mp4">
+        Tu navegador no soporta el video.
+    </video>
+
+    <!-- Barra de navegación -->
+    <nav>
+        <div class="hamburger" id="hamburger">
+            &#9776; <!-- Icono de menú hamburguesa -->
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <!--  <li><a href="index.html">Inicio</a></li>  -->
+            <li><a href="CVcompleto.html">Ver mi CV</a></li>
+            <li><a href="docs/Georgi_Angelov_CV.pdf" target="_blank" class="download-button" download>Descargar mi CV</a></li>
+        </ul>
+    </nav>
+
+    <header class="masthead">
+        <div class="grid-container"> <!-- Contenedor principal en grid -->
+            <div class="intro-text">
+                <pre id="typewriter">
+<span class="func-highlight">func main()</span> <span class="string-type1tab">{</span>
+    <span class="var-highlight">var</span> <span class="string-type1tab">me </span>
+    <span class="string-type1tab">me.Name = </span><span class="string-highlight">"Georgi Angelov"</span>
+    <span class="string-type1tab">me.Academic = </span><span class="string-highlight">"Ingeniería informátia"</span>
+    <span class="string-type1tab">me.Type = </span><span class="string-highlight">"Tecnologías de la información"</span>
+    <span class="string-type1tab">me.Contact = {</span>
+        <span class="string-type1tab">Mail: </span><span class="string-highlight">"Angelovg7498@gmail.com"</span><span class="string-type1tab">,</span>
+        <span class="string-type1tab">Location: </span><span class="string-highlight">"Madrid, España"</span>
+    <span class="string-type1tab">}</span>
+    <span class="string-type1tab">print("Bienvenido!")</span>
+<span class="string-type1tab">}</span>
+                </pre>
+            </div>
+
+            <div class="button-container">
+                <ul class="lista-contacto">
+                    <li>
+                        <a href="Angelovg7498@gmail.com" class="enlace-contenido">
+                            <span class="link-container">
+                                <img src="./img/Mail-black.svg" alt="Email" class="icon black-icon"> 
+                                <img src="./img/Mail-white.svg" alt="Email" class="icon white-icon"> 
+                            </span>
+                        </a>
+                    </li>
+                    <!-- <li>
+                        <a href="https://wa.me/34617743810" class="enlace-contenido" target="_blank">
+                            <span class="link-container">
+                                <img src="./img/Phone-black.svg" alt="Teléfono" class="icon black-icon"> 
+                                <img src="./img/Phone-white.svg" alt="Teléfono" class="icon white-icon"> 
+                            </span>
+                        </a>
+                    </li> -->
+                    <li>
+                        <a href="https://www.linkedin.com/in/angelovg7498/" target="_blank" class="enlace-contenido">
+                            <span class="link-container">
+                                <img src="./img/Linkedin-black.svg" alt="LinkedIn" class="icon black-icon"> 
+                                <img src="./img/Linkedin-white.svg" alt="LinkedIn" class="icon white-icon"> 
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Iam-Jorge" target="_blank" class="enlace-contenido">
+                            <span class="link-container">
+                                <img src="./img/Github-black.svg" alt="GitHub" class="icon black-icon"> 
+                                <img src="./img/Github-white.svg" alt="GitHub" class="icon white-icon"> 
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>          
+        </div>
+    </header>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Georgi Angelov</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
