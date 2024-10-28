@@ -655,7 +655,11 @@ ul.responsabilidades li:hover {
 
     .h3-formacion {
         text-align: center;
-    }  
+    }
+
+    .timeline-content h3 {
+        font-size: 1rem;
+    }
 }
 
 /* Barra de navegación */
